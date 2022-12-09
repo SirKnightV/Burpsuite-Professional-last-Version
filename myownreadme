@@ -1,0 +1,32 @@
+Para Instalar Burpsuite en sistema basado en debian basta con hacer >: git clone https://github.com/JKKSI/burpprolastversion.git
+luego si quieres la última versión de burpsuite copia este link >: https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.5&type=jar
+luego donde dice por ejemplo, 2022.8.5 le editas y le pones por ejemplo 2022.8.6, y pegas en el navegador, ejemplo link >: 
+https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.6&type=jar , si te sale para descargar o empieza la descarga cancelas, y le aumentas,
+pero esta ves en ves de .6 le pones .7 y así suscesivamente hasta que no te salga para descargar, cuando ya no te salga para descargar y la última que si te dejó
+descargar fue por ejemplo la .7 link ejemplo >: https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.7&type=jar , pues entonces copias ese link,
+editas el archivo Kali_Linux_Setup.sh y le añades el link en este caso ejemplo el de .7 en la linea 16 del code Ejemplo...
+
+old link >: Link="https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.5&type=jar"
+new >: Link="https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.7&type=jar"
+
+y asi es como se haría :)
+
+Nota: una ves ejecutes el setup.sh y se instale burpsuite automaticamente te abrirá burpsuite y el keygen, cuando pase eso inicia el burpsuite q te aparece espera 1 o 2 
+minutos y lo cierras y para ejecutarlo desde cualquier lado de la terminal basta con poner >: burp :< (modo root claro) y ya esta y puedes cerrar el keygen :)
+
+To install Burpsuite on a debian-based system, just do >: git clone https://github.com/JKKSI/burpprolastversion.git
+then if you want the latest version of burpsuite copy this link >: https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.5&type=jar
+then where it says, for example, 2022.8.5 you edit it and it says 2022.8.6, and paste it in the browser, example link >:
+https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.6&type=jar , if it comes out to download or the download starts, cancel, and increase it,
+but this time instead of .6 you put .7 and so on until you don't quit to download, when you no longer quit to download and the last one if you left
+download was for example the .7 link example >: https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.7&type=jar , then copy that link,
+edit the file Kali_Linux_Setup.sh and add the link in this case example the one for .7 on line 16 of the code Example...
+
+old link >: Link="https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.5&type=jar"
+new >: Link="https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.7&type=jar"
+
+and this is how it will be done :)
+
+Note: once you run the setup.sh and burpsuite is installed automatically, it will open burpsuite and the keygen, when that happens it starts the burpsuite
+that appears wait 1 or 2 minutes and you close it and to run it from any side of the terminal just put >: burp :< 
+(root mode of course) and that's it and you can close the keygen :)
